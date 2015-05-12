@@ -3,8 +3,8 @@ var express = require('express')
   , util = require('util')
   , StravaStrategy = require('passport-strava').Strategy;
 
-var STRAVA_CLIENT_ID = "--insert-id-here--"
-var STRAVA_CLIENT_SECRET = "--insert-secret-here--";
+var STRAVA_CLIENT_ID = process.env.STRAVA_CLIENT_ID;
+var STRAVA_CLIENT_SECRET = process.env.STRAVA_CLIENT_SECRET;
 
 
 // Passport session setup.
