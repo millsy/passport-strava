@@ -1,7 +1,7 @@
 var express = require('express')
   , passport = require('passport')
   , util = require('util')
-  , StravaStrategy = require('passport-strava').Strategy;
+  , StravaStrategy = require('passport-strava-oauth2').Strategy;
 
 var STRAVA_CLIENT_ID = process.env.STRAVA_CLIENT_ID;
 var STRAVA_CLIENT_SECRET = process.env.STRAVA_CLIENT_SECRET;
