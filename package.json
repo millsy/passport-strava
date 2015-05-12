@@ -1,8 +1,15 @@
 {
   "name": "passport-strava-oauth2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Strava authentication strategy for Passport.",
-  "keywords": ["passport", "strava", "auth", "authn", "authentication", "identity"],
+  "keywords": [
+    "passport",
+    "strava",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/millsy/passport-strava.git"
@@ -15,10 +22,12 @@
     "email": "github@thefamilymills.co.uk",
     "url": "http://www.thefamilymills.co.uk/"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib/passport-strava",
   "dependencies": {
     "pkginfo": "0.2.x",
@@ -30,5 +39,7 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
