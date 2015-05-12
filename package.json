@@ -1,5 +1,5 @@
 {
-  "name": "passport-strava",
+  "name": "passport-strava-oauth2",
   "version": "0.1.0",
   "description": "Strava authentication strategy for Passport.",
   "keywords": ["passport", "strava", "auth", "authn", "authentication", "identity"],
