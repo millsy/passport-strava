@@ -2,9 +2,15 @@
   "name": "passport-strava-examples-login",
   "version": "0.0.0",
   "dependencies": {
-    "express": "2.x.x",
-    "ejs": ">= 0.0.0",
-    "passport": ">= 0.0.0",
-    "passport-strava-oauth2": ">= 0.1.1"
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-strava-oauth2": "^0.1.3",
+    "util": "^0.10.3"
   }
 }
